@@ -1,20 +1,6 @@
 # Mac Development Ansible Playbook
 
 This repository is a fork of Jeff Geerlings excellent repository: https://github.com/geerlingguy/mac-dev-playbook
-It is a stripped version suited to my needs.
+It is a version tergeted towards iOS development.
 
-For installation:
- 
-    $ xcode-select --install
-    $ sudo easy_install pip
-    $ sudo pip install ansible
-    $ cd ~ && cd Documents
-    $ mkdir Projects && cd Projects
-    $ git clone https://github.com/trusk89/mac-dev-playbook.git
-    $ cd mac-dev-playbook
-    $ ansible-galaxy install -r requirements.yml
-    $ ansible-playbook -i inventory --ask-become-pass main.yml 
-    
-    $ cd ~/dotfiles
-    $ bin/install
-    $ bin/setup_osx
+For installation just copy the contents of `setup.sh` in a script, chmod a+x and run it. Where requested for ROOT password, please provide it. Where requested for app store username and password please provide them (required for downloading xcode)

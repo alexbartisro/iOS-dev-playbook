@@ -3,10 +3,8 @@
   connection: local
 
   vars_files:
-    - config.yml
+    - mas.yml
 
   roles:
     - geerlingguy.homebrew
-
-  tasks:
-  
+    - geerlingguy.mas
