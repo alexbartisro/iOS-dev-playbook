@@ -1,0 +1,28 @@
+---
+homebrew_install_path: /usr/local/homebrew
+homebrew_installed_packages:
+  - ansible
+  - git
+  - wget
+  - npm
+  - git-extras
+  - cocoapods
+  - carthage
+  - swiftlint
+  - curl
+
+homebrew_taps:
+  - caskroom/cask
+  - caskroom/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome
+  - virtualbox
+  - slack
+  - sublime-text
+  - skype
+  - sourcetree
+
+
+npm_packages:

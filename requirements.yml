@@ -1,2 +1,2 @@
-- src: geerlingguy.homebrew
-  path: vendor/roles
+- name: geerlingguy.homebrew
+- name: geerlingguy.mas
