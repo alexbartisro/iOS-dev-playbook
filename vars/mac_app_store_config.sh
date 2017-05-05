@@ -8,5 +8,6 @@ password=${password}
 echo "mas_email: $name
 mas_password: $password
 mas_installed_apps:
-  - { id: 497799835, name: \"Xcode (8.3.2)\" }" | tee mas.yml
-
+  - { id: 497799835, name: \"Xcode\" }
+mas_upgrade_all_apps: no
+mas_signin_dialog: no" | tee mas.yml

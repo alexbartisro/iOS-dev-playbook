@@ -9,4 +9,4 @@
 
   roles:
     - geerlingguy.homebrew
-    - dotfiles
+    - geerlingguy.mas
